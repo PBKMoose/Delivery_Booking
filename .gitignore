@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+
+# Python
+backend/.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# Local dev database (SQLite) and secrets
+backend/dev.db
+backend/dev.db-*
+backend/.env
